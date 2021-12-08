@@ -23,18 +23,18 @@ Portfolio project based on HTML and Bootstrap five developed using pair-programm
 
 ## Authors
 
-** Jihane Haddad **
+👤 ** Jihane Haddad **
 
 - GitHub: [@githubhandle](https://github.com/jihaneH)
 - Twitter: [@twitterhandle](https://twitter.com/jijihaddad)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/jihane-haddad/)
 
-**Tekle G**
+👤 **Tekle G**
 
 - GitHub: [@githubhandle](https://github.com/gtekle)
 - LinkedIn: [LinkedIn](www.linkedin.com/in/tekle-gebreyohannes-kidanemariam-7605752b)
 
-## ðŸ¤ Contributing
+## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
@@ -42,12 +42,12 @@ Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
-Give a â­ï¸ if you like this project!
+Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
 - Microverse Inc
 
-## ðŸ“ License
+## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
