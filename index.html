@@ -18,18 +18,36 @@
   <body>
     <!-- HEADER -->
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+      <nav
+        id="navbar"
+        class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary"
+      >
         <div class="container-fluid">
           <a class="navbar-brand" href="#">John Doe</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav w-100 d-flex justify-content-end align-items-center">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Portfolio</a>
-              <a class="nav-link" href="#">About</a>
-              <a class="nav-link">Contact</a>
+            <div
+              class="
+                navbar-nav
+                w-100
+                d-flex
+                justify-content-end
+                align-items-center
+              "
+            >
+              <a class="nav-link text-white" href="#portfolio">Portfolio</a>
+              <a class="nav-link text-white" href="#about">About</a>
+              <a class="nav-link text-white" href="#contact">Contact</a>
               <i class="bi bi-envelope text-white"></i>
             </div>
           </div>
@@ -37,13 +55,19 @@
       </nav>
     </header>
 
-   
-
     <!-- HOME SECTION -->
-    <section class="container-fluid bg-dark">
+    <section class="container-fluid bg-dark pt-5 pt-lg-0">
       <div class="row d-flex py-5 py-lg-2">
         <div class="col-lg-1 d-flex align-items-center order-3 order-lg-0">
-          <ul class="d-flex flex-lg-column flex-md-row align-items-center list-unstyled justify-content-center">
+          <ul
+            class="
+              d-flex
+              flex-lg-column flex-md-row
+              align-items-center
+              list-unstyled
+              justify-content-center
+            "
+          >
             <li class="mb-2 me-2">
               <a href="#">
                 <i class="bi bi-twitter text-white"></i>
@@ -91,8 +115,8 @@
     </section>
 
     <!-- Works Section -->
-    <section class="container mt-5">
-      <div class="row ">
+    <section id="portfolio" class="container mt-5">
+      <div class="row">
         <div class="col-lg-3">
           <h2 class="h2">My Recent Works</h2>
         </div>
@@ -127,7 +151,7 @@
         </div>
       </div>
       <div class="row my-5">
-        <div class="col-lg-4 mb-5 mb-lg-0" >
+        <div class="col-lg-4 mb-5 mb-lg-0">
           <div class="card">
             <img
               class="card-img-top"
@@ -187,7 +211,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 ">
+        <div class="col-lg-4">
           <div class="card">
             <img
               class="card-img-top"
@@ -311,7 +335,7 @@
     </section>
 
     <!-- About Section -->
-    <section class="container-fluid mt-5 bg-dark pb-5">
+    <section id="about" class="container-fluid mt-5 bg-dark pb-5">
       <div class="row py-5">
         <div class="col-lg-1"></div>
         <div class="col-lg-5">
@@ -348,7 +372,15 @@
       <div class="row text-white my-5">
         <div class="col-lg-1"></div>
 
-        <div class="col-lg-3 d-flex flex-column align-items-center text-center text-lg-start">
+        <div
+          class="
+            col-lg-3
+            d-flex
+            flex-column
+            align-items-center
+            text-center text-lg-start
+          "
+        >
           <h3 class="h3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -371,7 +403,15 @@
             <li class="mb-2">Css</li>
           </ul>
         </div>
-        <div class="col-lg-3 d-flex flex-column align-items-center text-center text-lg-start">
+        <div
+          class="
+            col-lg-3
+            d-flex
+            flex-column
+            align-items-center
+            text-center text-lg-start
+          "
+        >
           <h3 class="h3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -395,7 +435,15 @@
             <li class="mb-2">Selenium</li>
           </ul>
         </div>
-        <div class="col-lg-4 d-flex flex-column align-items-center text-center text-lg-start">
+        <div
+          class="
+            col-lg-4
+            d-flex
+            flex-column
+            align-items-center
+            text-center text-lg-start
+          "
+        >
           <h3 class="h3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -421,7 +469,7 @@
       </div>
     </section>
 
-    <footer class="container-fluid mt-5">
+    <footer id="contact" class="container-fluid mt-5">
       <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-3 col-sm-12">
